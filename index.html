@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UNAC Digital — Consultoria especializada em acessibilidade digital. Tornamos produtos digitais acessíveis para todas as pessoas." />
+  <title>UNAC Digital — Acessibilidade Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a href="#hero" class="skip-link">Ir para o conteúdo principal</a>
+
+  <!-- HEADER / NAV -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <img src="images/logo-horizontal.png" alt="UNAC Digital" class="nav__logo-img" />
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      <ul class="nav__menu" id="navMenu" role="menubar">
+        <li role="none"><a href="#cenario" class="nav__link" role="menuitem">Por que acessibilidade</a></li>
+        <li role="none"><a href="#servicos" class="nav__link" role="menuitem">Serviços</a></li>
+        <li role="none"><a href="#processo" class="nav__link" role="menuitem">Como funciona</a></li>
+        <li role="none"><a href="#diferencial" class="nav__link" role="menuitem">Por que a UNAC</a></li>
+        <li role="none"><a href="#contato" class="nav__link nav__link--cta" role="menuitem">Fale conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <h1 class="hero__title">Seu produto digital está pronto para <span class="hero__highlight">todos</span> os seus usuários?</h1>
+        <p class="hero__sub">97% dos sites brasileiros não são acessíveis — e a realidade dos apps e softwares não é diferente. Fazemos sua empresa estar dentro dos 3% acessíveis.</p>
+        <div class="hero__ctas">
+          <a href="#contato" class="btn btn--primary">Solicite um diagnóstico gratuito</a>
+          <a href="https://wa.me/5500000000000" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+            <svg class="btn__icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Fale com um especialista
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- O CENÁRIO -->
+    <section class="cenario" id="cenario">
+      <div class="container">
+        <h2 class="section__title">Por que acessibilidade digital importa?</h2>
+        <p class="section__sub">Sites, apps, jogos, softwares, plataformas EAD — qualquer produto digital pode e deve ser acessível. A maioria das empresas ainda não percebeu o quanto está deixando de alcançar.</p>
+        <div class="cenario__grid">
+          <div class="cenario__card">
+            <span class="cenario__number">14,4 mi</span>
+            <p class="cenario__text">de brasileiros têm alguma deficiência e precisam de produtos digitais acessíveis.</p>
+            <cite class="cenario__source">IBGE — Censo 2022</cite>
+          </div>
+          <div class="cenario__card">
+            <span class="cenario__number">R$ 22 bi</span>
+            <p class="cenario__text">por ano em poder de compra que a maioria das empresas simplesmente ignora.</p>
+            <cite class="cenario__source">Accenture</cite>
+          </div>
+          <div class="cenario__card">
+            <span class="cenario__number">97%</span>
+            <p class="cenario__text">dos sites brasileiros não passaram nos testes de acessibilidade.</p>
+            <cite class="cenario__source">NIC.br — 2024</cite>
+          </div>
+        </div>
+        <p class="cenario__note">A Lei Brasileira de Inclusão e a norma ABNT NBR 17225 já preveem a acessibilidade digital para sites, apps e softwares. Mais do que conformidade, é sobre alcançar mais pessoas e fortalecer a reputação da sua marca.</p>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <h2 class="section__title">O que fazemos</h2>
+        <p class="section__sub">Do site ao app, do software ao jogo — atendemos qualquer produto digital.</p>
+        <div class="servicos__grid">
+
+          <div class="servicos__card">
+            <div class="servicos__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="20"/><path d="M16 24h16M24 16v16"/></svg>
+            </div>
+            <h3 class="servicos__title">Consultoria</h3>
+            <p class="servicos__desc">Orientamos sua equipe sobre conformidade e boas práticas de acessibilidade digital em todos os âmbitos.</p>
+          </div>
+
+          <div class="servicos__card">
+            <div class="servicos__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="6" width="32" height="36" rx="2"/><path d="M16 16h16M16 24h12M16 32h8"/></svg>
+            </div>
+            <h3 class="servicos__title">Treinamento</h3>
+            <p class="servicos__desc">Capacitamos desenvolvedores, designers e QAs nas diretrizes WCAG e no uso de tecnologias assistivas.</p>
+          </div>
+
+          <div class="servicos__card">
+            <div class="servicos__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 28l8 8 16-20"/><circle cx="24" cy="24" r="20"/></svg>
+            </div>
+            <h3 class="servicos__title">Validação</h3>
+            <p class="servicos__desc">Testamos seu produto com especialistas, incluindo pessoas com deficiência, garantindo conformidade real.</p>
+          </div>
+
+          <div class="servicos__card">
+            <div class="servicos__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 38V18l16-10 16 10v20"/><path d="M18 38V28h12v10"/></svg>
+            </div>
+            <h3 class="servicos__title">Workshop</h3>
+            <p class="servicos__desc">Sensibilizamos equipes sobre o impacto da inclusão digital com vivências práticas e design acessível.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="processo" id="processo">
+      <div class="container">
+        <h2 class="section__title">Como funciona</h2>
+        <p class="section__sub">Um processo claro, do diagnóstico à entrega.</p>
+        <div class="processo__steps">
+
+          <div class="processo__step">
+            <span class="processo__num" aria-hidden="true">01</span>
+            <h3 class="processo__title">Diagnóstico</h3>
+            <p class="processo__desc">Avaliamos o nível de acessibilidade atual do seu produto digital.</p>
+          </div>
+
+          <div class="processo__step">
+            <span class="processo__num" aria-hidden="true">02</span>
+            <h3 class="processo__title">Planejamento</h3>
+            <p class="processo__desc">Definimos prioridades, escopo e um plano de ação sob medida.</p>
+          </div>
+
+          <div class="processo__step">
+            <span class="processo__num" aria-hidden="true">03</span>
+            <h3 class="processo__title">Execução</h3>
+            <p class="processo__desc">Trabalhamos junto com sua equipe técnica para implementar as melhorias.</p>
+          </div>
+
+          <div class="processo__step">
+            <span class="processo__num" aria-hidden="true">04</span>
+            <h3 class="processo__title">Validação</h3>
+            <p class="processo__desc">Testamos com usuários reais e garantimos a conformidade com as diretrizes WCAG.</p>
+          </div>
+
+        </div>
+        <div class="processo__cta">
+          <a href="#contato" class="btn btn--primary">Comece com um diagnóstico gratuito</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAL -->
+    <section class="diferencial" id="diferencial">
+      <div class="container">
+        <h2 class="section__title">Por que a UNAC</h2>
+        <div class="diferencial__grid">
+
+          <div class="diferencial__item">
+            <h3 class="diferencial__title">Vivência real</h3>
+            <p class="diferencial__desc">Nossa equipe inclui profissionais que vivenciam deficiências no dia a dia. Testamos como usuários reais, não apenas como técnicos.</p>
+          </div>
+
+          <div class="diferencial__item">
+            <h3 class="diferencial__title">WCAG sob medida</h3>
+            <p class="diferencial__desc">Aplicamos as diretrizes de acessibilidade de forma integral ou adaptada ao contexto e às necessidades do seu projeto.</p>
+          </div>
+
+          <div class="diferencial__item">
+            <h3 class="diferencial__title">Junto com sua equipe</h3>
+            <p class="diferencial__desc">Não entregamos apenas relatórios. Trabalhamos lado a lado com seus desenvolvedores, designers e gestores.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+      <div class="container">
+        <h2 class="section__title">Vamos conversar sobre o seu projeto</h2>
+        <p class="section__sub">Preencha o formulário ou fale direto no WhatsApp.</p>
+        <div class="contato__wrapper">
+          <form class="contato__form" id="contatoForm" action="#" method="POST">
+            <div class="form__group">
+              <label for="nome" class="form__label">Nome</label>
+              <input type="text" id="nome" name="nome" class="form__input" required autocomplete="name" />
+            </div>
+            <div class="form__group">
+              <label for="empresa" class="form__label">Empresa</label>
+              <input type="text" id="empresa" name="empresa" class="form__input" autocomplete="organization" />
+            </div>
+            <div class="form__group">
+              <label for="whatsapp" class="form__label">WhatsApp</label>
+              <input type="tel" id="whatsapp" name="whatsapp" class="form__input" required autocomplete="tel" />
+            </div>
+            <div class="form__group">
+              <label for="mensagem" class="form__label">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" class="form__input form__textarea" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar mensagem</button>
+          </form>
+          <div class="contato__info">
+            <p class="contato__text">Prefere falar direto?</p>
+            <a href="https://wa.me/5500000000000" class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">
+              <svg class="btn__icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chamar no WhatsApp
+            </a>
+            <div class="contato__email">
+              <p>Ou envie um e-mail:</p>
+              <a href="mailto:contato@unacdigital.com">contato@unacdigital.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__brand">
+        <img src="images/logo-horizontal.png" alt="UNAC Digital" class="footer__logo" />
+        <p class="footer__slogan">Sentir, entender, acessar.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Links do rodapé">
+        <a href="#cenario">Por que acessibilidade</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Como funciona</a>
+        <a href="#diferencial">Por que a UNAC</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="footer__legal">
+        <p>UNAC Digital — Universo Da Acessibilidade Digital Ltda.</p>
+        <p>CNPJ: 39.707.952/0001-85</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5500000000000" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
