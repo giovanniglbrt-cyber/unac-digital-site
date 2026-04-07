@@ -173,7 +173,7 @@ ul {
 }
 
 .nav__logo-img {
-  height: 40px;
+  height: 56px;
   width: auto;
 }
 
@@ -360,11 +360,25 @@ ul {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   transition: transform var(--transition), box-shadow var(--transition);
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .servicos__card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.servicos__cta-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--cor-orbita);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: gap var(--transition);
 }
 
 .servicos__icon {
@@ -571,7 +585,7 @@ ul {
 }
 
 .footer__logo {
-  height: 36px;
+  height: 48px;
   width: auto;
   margin-bottom: 12px;
   filter: brightness(0) invert(1);
